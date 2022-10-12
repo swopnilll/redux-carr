@@ -10,7 +10,6 @@ import {
 import { ChevronDown, ChevronUp } from "../icons";
 
 const CartItem = ({ id, img, title, price, amount }) => {
-  console.log({id})
   const dispatch = useDispatch();
 
   const onDeleteAmountOfItemClicked = () => {
